@@ -4,9 +4,22 @@
     <link rel="stylesheet" href="build/css/vendor.css">
     <script src="build/js/vendor.min.js"></script>
     <script type="text/javascript" src="build/js/app.js"></script>
+    <link rel="stylesheet" href="/css/styles.css">
     <title></title>
   </head>
-  <body>
-
-  </body>
+    <div class="container">
+    <body>
+      <h1>Alarm Clock!</h1>
+      <div class="relative">
+        <img src="img/alarmclock.jpeg">
+        <h1 class = "absolute-text" id="time"></h1>
+      </div>
+      <form id="alarmclock-form">
+        <h3>Set your alarm!</h3>
+        <input type="time" name="timeInput" value="" id="timeInfo">
+        <button type="submit" name="timeButton" class="btn btn-success btn-lg">Submit</button>
+        <h2 id="alarm">BEEP BEEP BEEP</h2>
+      </form>
+    </body>
+  </div>
 </html>
